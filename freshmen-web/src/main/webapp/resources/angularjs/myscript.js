@@ -1,7 +1,7 @@
 var myApp = angular.module('myApp', []);
 myApp
 		.controller(
-				'NavigationController',
+				'PageNavigationController',
 				function($scope, $http) {
 					var urlBase = 'http://localhost:8080/freshmen-web/';
 					$http.defaults.headers.post["Content-Type"] = "application/x-www-form-urlencoded";
