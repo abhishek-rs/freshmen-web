@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.freshmen.model.Person;
 
 @RestController
-public class DataController {
+public class ApplicationDataController {
 	public static List<Person> staticList = new ArrayList<Person>();
 
 	@RequestMapping(value = "/list/all", method = RequestMethod.GET)
